@@ -12,7 +12,7 @@ const initialState: coreManage = {
 const reducer: Reducer<coreManage> = (state = initialState, action) => {
     switch (action.type) {
         case ActionTypes.SET_INIT:
-            return { ...state, id: '2' };
+            return   { ...state, id: '2' };
         default:
             return state;
     }
